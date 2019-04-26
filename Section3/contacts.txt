@@ -1,0 +1,3 @@
+Daisy Duck|daisy.duck@gmail.com|Y
+Mickey Mouse|mickey.mouse@gmail.com|Y
+Donald Duck|donald.duck@gmail.com|NSnow White|snow.white@disney.com|Y
