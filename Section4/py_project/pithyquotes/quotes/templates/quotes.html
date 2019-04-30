@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>Browse Through the Quotes</h1>
+<p>Here they are. Just take a look!</p>
+
+<ul style="list-style-type:none;">
+{% for quote in data %}
+<li><h3>{{quote.quote}}</h3>
+
+<span>- <em>{{quote.attribute}}</em></span>
+</li>
+<br>
+{% endfor %}
+</ul>
+
+{% endblock %}
